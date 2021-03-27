@@ -1,0 +1,10 @@
+#carouselTestimonials {
+    margin: 0 auto;
+    background: #eee;
+}
+#carouselTestimonials .carousel-item {
+    width: 399px;
+    margin-left: calc((100% - 399px)/2);
+    text-align: justify;
+    padding-top: 20px;
+}

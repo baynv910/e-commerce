@@ -1,0 +1,4 @@
+.require-label:after {
+    content: ' * ';
+    color: red;
+}

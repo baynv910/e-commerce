@@ -1,0 +1,46 @@
+.welcome {
+    height: 100vh;
+    width: 100%;
+    background: #0005;
+    text-shadow: 1px 1px 3px #000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 25vh;
+    animation: welcomeAnimate 0.5s ease-in;
+    text-align: center;
+}
+
+.welcome .txt1 {
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 45px;
+    display: block;
+}
+
+.welcome .txt2 {
+    color: #09f;
+    font-weight: 800;
+    font-size: 60px;
+    display: block;
+    margin-top: -25px;
+    letter-spacing: -2px;
+}
+
+.welcome .txt3 {
+    display: block;
+    margin: -10px 0px 5px 0px;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.welcome .txt4 {
+    color: #0ef;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+@keyframes welcomeAnimate {
+    from {padding-top: 35vh; opacity: 0;}
+    to {padding-top: 25vh; opacity: 1;}
+}

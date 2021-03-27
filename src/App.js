@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import Carousel from "./components/Carousel"
+import Commitment from "./components/Commitment"
+import Header from "./components/Header"
+import Testimonials from "./components/Testimonials"
+import Welcome from "./components/Welcome"
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Carousel />
+      <Welcome />
+      <Commitment />
+      <Testimonials />
+      
+      <a href="# " id="toTopBtn" title="Về đầu trang">
+        <i className="fa fa-arrow-circle-up"></i>
+      </a>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
